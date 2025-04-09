@@ -1,0 +1,97 @@
+:root {
+  --dark-green-active:rgba(61, 85, 57, 1);
+  --gray-light152:rgba(152, 156, 159, 1);
+  --white-color:rgba(249, 250, 250, 1);
+  --primary-textbg-blue:rgba(61, 109, 241, 1);
+  --Header-blue:rgba(64, 94, 179, 1);
+  --white-text:rgba(255, 255, 255, 1);
+  --black-text:rgba(0, 8, 14, 1);
+  --red-text:rgba(246, 39, 39, 1);
+  --gray-text-light:rgba(162, 159, 159, 1);
+  --green-text:rgba(52, 203, 75, 1);
+  --gray--light:rgba(102, 107, 110, 1);
+  --bg-white:rgba(253, 255, 253, 1);
+  --arrow-white:rgba(255, 255, 254, 1);
+  --star-color:rgba(197, 187, 160, 1);
+  --footer-gradient1:rgba(61, 109, 241, 1);
+  --footer-gradient2:rgba(35, 63, 139, 1);
+  --grade-blue:rgba(49, 87, 193, 1);
+}
+
+body {
+  direction: rtl;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(../public/assets/fonts/Cairo-Bold.ttf);
+}
+@font-face {
+  font-family: "Medium";
+  src: url(../public/assets/fonts/Cairo-Medium.ttf);
+}
+@font-face {
+  font-family: "Regular";
+  src: url(../public/assets/fonts/Cairo-Regular.ttf);
+}
+@font-face {
+  font-family: "SemiBold";
+  src: url(../public/assets/fonts/Cairo-SemiBold.ttf);
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url(../public/assets/fonts/Cairo-ExtraBold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, li {
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+span {
+  display: inline-block;
+}
+
+::-webkit-scrollbar {
+  width: 0.9rem;
+  background-color: var(--black-text);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--footer-gradient1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--footer-gradient2);
+}
+
+html {
+  font-size: 14px;
+}
+
+li, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=styles.css.map */

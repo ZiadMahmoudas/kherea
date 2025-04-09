@@ -1,0 +1,158 @@
+.sec h1 {
+  font-size: 1.5625rem;
+  font-family: Bold;
+  color: rgb(0, 8, 14);
+  background-color: transparent;
+}
+
+.link a {
+  display: flex;
+  gap: 15px;
+  background-image: linear-gradient(rgb(89, 67, 234), rgb(5, 187, 248));
+  padding-left: 16px;
+  border-radius: 10px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.total {
+  align-items: baseline;
+}
+
+.link a span {
+  color: rgb(255, 255, 254);
+  font-family: Medium;
+  font-size: 1.25rem;
+}
+
+.link a i {
+  font-size: 25px;
+  color: rgb(255, 255, 254);
+}
+
+.collect {
+  width: 50%;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  left: 40%;
+  top: 80%;
+}
+
+.content h4 {
+  color: rgb(253, 255, 253);
+  font-size: 1.5rem;
+  font-family: Bold;
+}
+
+.content .data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .data p {
+  color: rgb(253, 255, 253);
+  font-size: 1.25rem;
+  font-family: Medium;
+}
+
+.content .data .ten {
+  display: flex;
+  gap: 10px;
+}
+
+.pic img {
+  width: 90%;
+}
+
+.pic1 img {
+  width: 60%;
+}
+
+.pic2 img {
+  width: 80%;
+}
+
+.pic3 img {
+  width: 80%;
+}
+
+.fest p {
+  color: rgb(253, 255, 253);
+  font-size: 1rem;
+  font-family: Medium;
+}
+
+.fest {
+  left: -50%;
+}
+
+.sec2 {
+  background-image: linear-gradient(270deg, rgb(89, 67, 234), rgb(5, 187, 248));
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  padding-block: 100px;
+}
+
+.gradient1, .gradient2 {
+  display: none;
+}
+
+.sec2 h1 {
+  font-size: 2.1875rem;
+  font-family: Bold;
+}
+
+@media (min-width: 576px) {
+  .sec h1 {
+    font-size: 3rem;
+  }
+  .collect {
+    width: 67%;
+  }
+  .total {
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .collect {
+    width: 71%;
+  }
+  .gradient1, .gradient2 {
+    display: block;
+  }
+  .gradient2 {
+    left: 80%;
+    top: 0%;
+  }
+  .gradient1 {
+    left: 2%;
+    top: 0%;
+  }
+}
+@media (min-width: 992px) {
+  .collect {
+    width: 79%;
+  }
+  .sec2 h1 {
+    font-size: 6rem;
+  }
+  .fest {
+    left: 13%;
+    top: 50%;
+  }
+}
+@media (min-width: 1115px) {
+  .total {
+    display: flex;
+    gap: 5px;
+  }
+  .fest {
+    left: -99%;
+    top: -160%;
+  }
+}/*# sourceMappingURL=album.component.css.map */

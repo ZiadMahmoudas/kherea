@@ -1,0 +1,105 @@
+.sec h1 {
+  font-size: 1.5625rem;
+  font-family: Bold;
+  color: rgb(0, 8, 14);
+}
+
+.link a {
+  display: flex;
+  gap: 15px;
+  background-image: linear-gradient(rgb(89, 67, 234), rgb(5, 187, 248));
+  padding-left: 16px;
+  border-radius: 10px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.total {
+  align-items: baseline;
+}
+
+.link a span {
+  color: rgb(255, 255, 254);
+  font-family: Medium;
+  font-size: 1.25rem;
+}
+
+.link a i {
+  font-size: 25px;
+  color: rgb(255, 255, 254);
+}
+
+iframe {
+  border: 2px solid #000;
+  box-shadow: inset 20px 20px 4px rgba(0, 0, 0, 0.25), inset -20px -20px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid transparent;
+  -o-border-image: linear-gradient(to right, rgb(89, 67, 234), rgb(5, 187, 248));
+     border-image: linear-gradient(to right, rgb(89, 67, 234), rgb(5, 187, 248));
+  border-image-slice: 1;
+  border-radius: 5px;
+  width: 300px;
+  height: 500px;
+}
+
+.carousel-items {
+  height: 502px !important;
+}
+
+.carousel {
+  left: 16%;
+}
+
+.carousel-indicators {
+  margin-right: 0%;
+  margin-bottom: 0;
+  margin-left: 0%;
+  bottom: -61px;
+  right: 3px;
+}
+
+.active {
+  background-image: linear-gradient(90deg, rgb(89, 67, 234), rgb(5, 187, 248));
+}
+
+.carousel-indicators button {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: 50%;
+  color: red;
+  background-color: rgb(100, 100, 100);
+}
+
+@media (min-width: 576px) {
+  .sec h1 {
+    font-size: 3rem;
+  }
+  .carousel {
+    left: 0%;
+  }
+  .carousel-indicators {
+    right: 0;
+  }
+  .total {
+    align-items: center;
+  }
+  iframe {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (min-width: 768px) {
+  iframe {
+    width: 700px;
+    height: 500px;
+  }
+}
+@media (min-width: 992px) {
+  iframe {
+    width: 800px;
+    height: 500px;
+  }
+  .sec2 h1 {
+    font-size: 6rem;
+  }
+}/*# sourceMappingURL=videos.component.css.map */

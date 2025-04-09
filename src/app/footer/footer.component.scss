@@ -1,0 +1,149 @@
+footer{
+  background-image: linear-gradient(90deg,rgba(89, 67, 234, 1),rgba(5, 187, 248, 1));
+  padding-block: 20px;
+  border-top-left-radius: 90px;
+}
+footer .logo{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-bottom: 8px;
+}
+
+.logo .survay{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.logo .survay p{
+  font-size: 1.5rem;
+  font-family: SoraRegular;
+  color:rgba(253, 255, 253, 1);
+}
+.logo .survay .social{
+  display: flex;
+  gap: 10px;
+}
+.logo .survay .social a{
+  background-color: rgba(255, 255, 255, 1);
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo .survay .social i{
+  color: rgba(5, 187, 248, 1);
+  font-size: 25px;
+  object-fit: contain;
+}
+.fast{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.fast h6{
+  color: rgba(253, 255, 253, 1);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.fast li a{
+  font-family: SoraRegular;
+  color: rgba(253, 255, 253, 1);
+  font-size: .875rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.fast li a img{
+  filter:  brightness(0) invert(1) grayscale(100%) contrast(120%);
+}
+.we{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.we h6{
+  font-size: 1rem;
+  color: rgba(253, 255, 253, 1);
+  font-family: Medium;
+}
+.we li a{
+display: flex;
+gap: 10px;
+align-items: center;
+}
+.we li a span{
+  direction: ltr;
+  font-family: Regular;
+  font-size: 0.9rem;
+  color: rgba(253, 255, 253, 1);
+}
+
+.we .pic1  img{
+  background-color: #fff;
+   border-radius: 50%;
+   padding: 5px;
+  object-fit: contain;
+}
+.edit-input{
+  display: flex;
+  gap: 16px;
+}
+.edit-input input::placeholder{
+  color: rgba(42, 51, 66, 1);
+  font-size: 1rem;
+  font-family: Regular;
+}
+.edit-input input{
+ width: 50%;
+ border: 1px solid rgba(213, 218, 225, 1);
+  padding: 10px 14px ;
+  border: 0;
+  border-radius: 8px;
+  outline: 0;
+ filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.05));
+}
+.edit-input button p{
+  font-size: 2rem;
+  background: linear-gradient(to right, rgba(89, 67, 234, 1), rgba(5, 187, 248, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Bold !important;
+}
+.edit-input button{
+  display: flex;
+  gap: 4px;
+  padding: 12px 18px;
+  border-radius: 6px;
+  background-color: rgba(203, 187, 161, 1);
+  filter: drop-shadow(0 1px 2px rgba(105, 81, 255, 0.05));
+}
+@media(min-width:576px){
+  footer{
+      padding: 70px 80px;
+  }
+  // .logo .social{
+  //   justify-content: center;
+  // }
+  .fast{
+    gap: 30px;
+  }
+  .fast h6{
+    font-size: 1.5rem;
+  }
+  .fast li a{
+     font-size: 22px;
+  }
+  .we h6{
+    font-size: 1.5rem;
+  }
+  .we  li a span{
+    font-size: 1.3rem;
+  }
+}
+@media (min-width:768px) {
+
+}

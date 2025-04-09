@@ -1,0 +1,267 @@
+.sec h1,.sec2 h1{
+  font-size: 1.5625rem;
+  font-family: Bold;
+  color: rgba(0, 8, 14, 1);
+
+}
+
+.sec2 .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.sec1 .card-body .card-text{
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.sec1 .card-body h5{
+  font-weight: 700;
+  font-size: 1.5625rem;
+}
+.sec2 .card-body .header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.text .card-text {
+  font-size: 0.8rem;
+  font-family: Regular;
+}
+.sec1{
+  background-image: linear-gradient(270deg,rgba(89, 67, 234, 1),rgba(5, 187, 248, 1));
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+}
+.sec1 h1{
+  font-size: 1.5625rem;
+  font-family: Bold;
+  color: rgba(0, 8, 14, 1);
+
+}
+.gradient1,.gradient2{
+  display: none;
+}
+
+.pic4 img,.pic3 img{
+  width: 226px;
+}
+.pic5 img{
+  width: 226px;
+}
+.all{
+  display: flex;
+  justify-content: center;
+}
+.bark{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  background-image:linear-gradient(90deg,rgba(89, 67, 234, 1),rgba(5, 187, 248, 1)) ;
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.07));
+  width: 350px;
+  height: 350px;
+  padding-inline: 15px;
+  border-radius: 12px;
+
+}
+.coll{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.rafek{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.day{
+  display: flex;
+  gap: 20px;
+
+}
+.ago{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.ago h4{
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 1);
+  font-family: Bold;
+}
+
+.ago p{
+  font-family: Regular;
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 1);
+}
+.text{
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 1);
+  font-family: Regular;
+}
+.starss{
+  display: flex;
+  gap: 8px;
+  flex-direction: row-reverse;
+}
+.starss i{
+  font-size: 25px;
+  color: rgba(255, 160, 51, 1);
+}
+.thing{
+  border: 2px solid ;
+  border-image: linear-gradient(to right,rgba(89, 67, 234, 1),rgba(5, 187, 248, 1));
+  border-image-slice: 1;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.1));
+  padding-inline: 0;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  padding-inline: 11px;
+}
+.read{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.read h4{
+  font-size: 1.3125rem;
+  color: rgba(0, 0, 0, 1);
+  font-family: Bold;
+}
+.read p{
+  font-size: 1.25rem;
+  font-family: Regular;
+  color: rgba(0, 0, 0, 1);
+}
+.article .text1{
+  font-size: 1.25rem;
+  font-family:Regular ;
+  color: rgba(0, 0, 0, 1);
+}
+.btn1{
+  background-image: linear-gradient(to right,rgba(89, 67, 234, 1),rgba(5, 187, 248, 1));
+  padding: 8px 8px;
+  border-radius: 8px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+  width: 95%;
+}
+.btn1 span{
+  font-size: 1rem;
+  font-family: Regular;
+}
+.btn1 i {
+  font-size: 25px;
+  font-weight: 800;
+}
+.this-media{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+}
+
+.rows1{
+  justify-content: center;
+}
+.swiper-slide{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 500px !important;
+}
+@media(min-width:576px){
+  .sec h1,.sec2 h1{
+    font-size: 3rem;
+  }
+  .sec1 h1{
+    font-size: 2.2rem;
+  }
+  .btn1{
+    width: 82% ;
+  }
+  .this-media{
+    width: 60%;
+  }
+}
+@media(min-width:768px){
+  .gradient1,.gradient2{
+    display: block;
+  }
+  .gradient2{
+    left: 80%;
+    top: 0%;
+  }
+  .gradient1{
+    left: 2%;
+    top: 0%;
+  }
+  .btn1{
+    width: 82% ;
+  }
+  .this-media{
+    width: 50%;
+  }
+}
+@media(min-width:992px){
+
+  .sec h1{
+    font-size: 3rem;
+  }
+  .sec1 h1{
+    font-size: 3rem;
+  }
+  .pic5 img{
+    width: 180px;
+  }
+  .pic4 img,.pic3 img{
+    width: 140px;
+  }
+  .all{
+    border-left: 2px solid;
+    border-image: linear-gradient(rgba(89, 67, 234, 1),rgba(5, 187, 248, 1));
+    border-image-slice: 1;
+  }
+  .all:nth-child(5) {
+    border-left: 0;
+  }
+  .bark{
+    width: 310px;
+  }
+  .btn1{
+    width: 63%;
+  }
+  .this-media{
+    width: 35%;
+  }
+  .bark{
+    width: 375px;
+  }
+}
+@media(min-width:1115px){
+  .btn1{
+    width: 80%;
+  }
+  .this-media{
+    width: 30%;
+  }
+}
+@media(min-width:1200px){
+.bark{
+  width: 375px;
+}
+
+}
